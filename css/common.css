@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* 네비게이션 */
+body { margin: 0; }
+
+.main_nav {
+    background: pink;
+    display: inline-block;
+    width: 100%;
+}
+
+.nav_menu {
+    margin: 0; padding: 0;
+    height: 60px;
+    overflow: hidden;
+}
+
+.nav_menu li {
+    text-align: center;
+    color: white;
+    float: left;
+    list-style: none;
+    position: relative;
+    width: 33.3333%;
+    height: 60px;
+}
+
+.nav_menu li a {
+    color: white;
+}
+
+
+.nav_menu li:hover {
+    background: white;
+}
+
+.nav_menu li:hover a {
+    color: pink;
+}
+
+.nav_menu li:hover span {
+    color: pink;
+}
+
+
+.nav_menu ul {
+    background: #eee;
+    border: 1px solid black;
+    display: none;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 180px;
+}
+
+.nav_menu ul li { float: none; }
+.nav_menu ul li:hover { background: #ddd; }
+.nav_menu ul li:hover a{ color: black; }
+.nav_menu ul a { color: black; }
+.nav_menu ul ul { left: 100%; top: 0; }
+.nav_menu ul ul li { float: left; margin-right: 10px; }
+
+
+
+/* 푸터 */
+footer {
+    text-align: center;
+    height: 150px;
+    background: pink;
+    color: white;
+}
