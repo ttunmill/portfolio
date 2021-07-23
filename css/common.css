@@ -1,65 +1,52 @@
 @charset "UTF-8";
 
 /* 네비게이션 */
-body { margin: 0; }
+body { margin: 0 auto; }
 
-.main_nav {
-    background: pink;
-    display: inline-block;
+.logo {
     width: 100%;
+    text-align: center;
 }
 
-.nav_menu {
-    margin: 0; padding: 0;
+#main_logo {
+    width: 180px;
     height: 60px;
+}
+
+.dept01 li span {
+    display: block;
+}
+
+.topMenu {
+    background: pink;
     overflow: hidden;
 }
 
-.nav_menu li {
-    text-align: center;
-    color: white;
-    float: left;
-    list-style: none;
-    position: relative;
-    width: 33.3333%;
+.topMenu li:nth-of-type(1) {
     height: 60px;
+    width: 100px;
+    float: left;
+    /* margin-left: 30%; */
 }
 
-.nav_menu li a {
-    color: white;
-}
-
-
-.nav_menu li:hover {
-    background: white;
-}
-
-.nav_menu li:hover a {
-    color: pink;
-}
-
-.nav_menu li:hover span {
-    color: pink;
+.topMenu li:nth-of-type(1) a {
+    float: left;
+    /* margin-left: 30%; */
 }
 
 
-.nav_menu ul {
-    background: #eee;
-    border: 1px solid black;
-    display: none;
-    padding: 0;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    width: 180px;
+.topMenu li:nth-of-type(2) {
+    float: right;
+    /* margin-right: 30%; */
 }
 
-.nav_menu ul li { float: none; }
-.nav_menu ul li:hover { background: #ddd; }
-.nav_menu ul li:hover a{ color: black; }
-.nav_menu ul a { color: black; }
-.nav_menu ul ul { left: 100%; top: 0; }
-.nav_menu ul ul li { float: left; margin-right: 10px; }
+.topMenu li:nth-of-type(2) a {
+    float: right;
+    /* margin-right: 30%; */
+}
+
+.dept02 {display:none;}
+
 
 
 
@@ -67,6 +54,7 @@ body { margin: 0; }
 footer {
     text-align: center;
     height: 150px;
+    width: 100%;
     background: pink;
     color: white;
 }

@@ -1,2 +1,6 @@
 @charset "UTF-8";
-
+.footer_img {
+    padding-top: 20px;
+    width: 30px;
+    height: 30px;
+}
