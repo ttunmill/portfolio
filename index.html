@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="plugin/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugin/owl.theme.default.min.css">
 </head>
 <body>
     <!-- 네비게이션 -->
@@ -15,53 +17,40 @@
             <a href="#"><img id="main_logo" src="/image/common/linkedin_banner_image_1.png" alt="logo"></a>
         </div>
         <div class="topMenu">
-            <ul class="dept01">
+            <ul class="dep01">
                 <li>
                     <span>SEARCH</span>
-                    <ul class="dept02">
-                        <li id="asd">
-                            <a href="#">검색하기</a>
-                        </li>
+                    <ul class="dep02">
+                        <li id="dep02_01"><a href="#">검색하기</a></li>
                     </ul>
                 </li>
                 <li>
                     <span>MEDIA</span>
-                    <ul class="dept02">
-                        <li>
-                            <a href="#">공지사항</a>
-                        </li>
-                        <li>
-                            <a href="#">이벤트</a>
-                        </li>
-                    </ul>        
+                    <ul class="dep02">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">이벤트</a></li>
+                    </ul>
+                </li>
             </ul>
+            <div></div>
         </div>
     </header>
-
-    <!-- 배너 -->
-    <div id="banner">
-        <div>뒤로</div>
-        <img src="#" alt="배경1">
-        <img src="#" alt="배경2">
-        <img src="#" alt="배경3">
-        <div>앞으로</div>
-    </div>
-
+    
     <!-- 콘텐츠 -->
-    <div id="contant">
-        <div>
-            <div><img src="#" alt="콘텐츠 이미지1"></div>
-            <p>블라블라</p>
-        </div>
-        <div>
-            <p>블라블라</p>
-            <div><img src="#" alt="콘텐츠 이미지2"></div>
-        </div>
-        <div>
-            <div><img src="#" alt="콘텐츠 이미지1"></div>
-            <p>블라블라</p>
+    <div class="slide">
+        <div class="owl-carousel">
+            <div class="item"><h4>1</h4></div>
+            <div class="item"><h4>2</h4></div>
+            <div class="item"><h4>3</h4></div>
+            <div class="item"><h4>4</h4></div>
+            <div class="item"><h4>5</h4></div>
         </div>
     </div>
+    <div class="btn">
+        <button class="owl-prev">이전</button>
+        <button class="owl-next">다음</button>
+    </div>
+
 
     <!-- 푸터 -->
     <footer>
@@ -81,6 +70,9 @@
     </footer>
 
     <script src="javascript/jquery-3.6.0.min.js"></script>
+    <script src="plugin/owl.carousel.min.js"></script>
+    <script src="javascript/main.js"></script>
     <script src="javascript/common.js"></script>
+
 </body>
 </html>

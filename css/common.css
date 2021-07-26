@@ -1,60 +1,126 @@
 @charset "UTF-8";
 
 /* 네비게이션 */
-body { margin: 0 auto; }
+/* 초기화 */
+* {
+    margin: 0; padding: 0;
+    font: normal 13px 'Arial';
+}
+a { text-decoration: none !important; }
+img { border: 0; }
+ul { list-style: none; }
 
-.logo {
+/* 푸터 하단고정 */
+html {
+
+    position: relative;
+
+    min-height: 100%;
+
+    margin: 0;
+
+    overflow-x: hidden;
+}
+
+body {
+
+    min-height: 100%;
+
+}
+
+
+header .logo {
     width: 100%;
+    height: 70px;
     text-align: center;
+    background: white;
 }
 
-#main_logo {
+header #main_logo {
     width: 180px;
-    height: 60px;
+    height: 70px
 }
 
-.dept01 li span {
+
+
+.topMenu {
+    /* overflow: hidden; */
+    text-align: center;
+    background:#2C3A49;
+    color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 60px;
+    z-index: 9999;
+}
+
+.topMenu .dep01 li {
+    float: left;
+    width: 50%;
+    height: 60px;
+    list-style: none;
     display: block;
 }
 
-.topMenu {
-    background: pink;
-    overflow: hidden;
+.topMenu .dep01 li span {
+    display: block;
+    padding:22px;
 }
 
-.topMenu li:nth-of-type(1) {
-    height: 60px;
-    width: 100px;
-    float: left;
-    /* margin-left: 30%; */
+.dep01 {
+    /* height: 60px; */
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
-.topMenu li:nth-of-type(1) a {
-    float: left;
-    /* margin-left: 30%; */
+.dep02 {
+    position: absolute;
+    list-style: none;
+    display: none;
+    width: 50%;
+    background: #5C6A79;
+    padding: 0;
+    z-index: 9999;
 }
 
-
-.topMenu li:nth-of-type(2) {
-    float: right;
-    /* margin-right: 30%; */
+.dep02 li {
+    position: relative;
 }
 
-.topMenu li:nth-of-type(2) a {
-    float: right;
-    /* margin-right: 30%; */
+.dep02 li:hover {
+    background:#2C3A49;
 }
 
-.dept02 {display:none;}
+.dep02 li:hover a {
+    color: white;
+}
 
+.dep02 #dep02_01 {
+    width: 100%;
+}
 
-
+.dep02 a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
 
 /* 푸터 */
 footer {
-    text-align: center;
-    height: 150px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    background: pink;
+    padding: 20px;
+    text-align: center;
+    background: #2C3A49;
     color: white;
+}
+
+.footer_img {
+    padding-top: 20px;
+    width: 30px;
+    height: 30px;
 }

@@ -1,6 +1,28 @@
 @charset "UTF-8";
-.footer_img {
-    padding-top: 20px;
-    width: 30px;
-    height: 30px;
+
+.item {
+    height: 400px;
+    background-color: gray;
+    text-align: center;
+    line-height: 400px;
+    font-size: 60px;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn {
+    text-align: center;
+    margin: 10px;
+}
+
+.btn button {
+    padding: 5px 10px;
+}
+
+.owl-carousel {
+    position: relative;
+}
+
+.btn {
+    /* position: absolute; */
 }
