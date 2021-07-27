@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+#search_bg {
+    position: relative;
+    width: 100%;
+}
+
+
+#main_ser {
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+    top: 200px;
+    /* width: 100%; */
+    
+}
+
+#serach_box {
+    height: 40px;
+    width: 400px;
+    border: 1px solid #1b5ac2;
+    background: #ffffff;
+}
+
+#query {
+    font-size: 16px;
+    width: 325px;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    float: left;
+}
+
+#search {
+    cursor: pointer;
+    width: 50px;
+    height: 100%;
+    border: 0px;
+    background: #1b5ac2;
+    outline: none;
+    float: right;
+    color: #ffffff;
+}

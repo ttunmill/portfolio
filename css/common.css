@@ -20,6 +20,7 @@ html {
     margin: 0;
 
     overflow-x: hidden;
+
 }
 
 body {
@@ -28,6 +29,10 @@ body {
 
 }
 
+header {
+    width: 100%;
+    left: 0;
+}
 
 header .logo {
     width: 100%;
@@ -107,6 +112,17 @@ header #main_logo {
     padding: 20px;
 }
 
+/* 모바일 햄버거 메뉴 */
+#hamburger-wrapper {
+    display: none;
+}
+
+#sidenav {
+    display: none;
+}
+
+
+
 /* 푸터 */
 footer {
     position: absolute;
@@ -124,3 +140,80 @@ footer {
     width: 30px;
     height: 30px;
 }
+
+@media screen and (max-width:767px) {
+    .dep01 {
+        display: none;
+    }
+    
+    
+    #hamburger-wrapper {
+        display: block;
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    
+    #hamburger {
+        cursor: pointer;
+        font-size: 2em;
+    }
+    
+    #close-sidenav {
+        display: block;
+        cursor: pointer;
+        /* margin-right: -10px; */
+        float: right;
+    }
+    
+    #sidenav {
+        display: block;
+        height: 100%; width: 100%;
+        top: 0; right: -100%;
+        background: #303942;
+        position: fixed;
+        transition: 0.3s;
+        opacity: 0.7;
+        z-index: 9999;
+    }
+    
+    #sidenav ul {
+        margin: 0; 
+        padding-top: 100px; 
+        list-style-type: none;
+        font-size: 20px;
+    }
+
+    #close-sidenav {
+        display: block;
+    }
+    
+    header li {
+        color:springgreen;
+        padding: 10px;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 1.5em;
+        opacity: 1;
+    }
+
+    header li a {
+        color: white;
+        padding: 20px;
+        display: block;
+        font-size: 15px;
+    }
+
+    header li:hover a {
+        background: black   ;
+    }
+
+
+}
+
+
+    
+    
+
+    
+

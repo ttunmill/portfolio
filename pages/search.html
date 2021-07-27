@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="plugin/owl.carousel.min.css">
-    <link rel="stylesheet" href="plugin/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/search.css">
+    <link rel="stylesheet" href="../css/searchbar.css">
+    <link rel="stylesheet" href="../plugin/owl.carousel.min.css">
+    <link rel="stylesheet" href="../plugin/owl.theme.default.min.css">
 </head>
 <body>
     <!-- 네비게이션 -->
-    <a name="INDEX"></a>
+    <a name="SEARCH"></a>
     <header>
         <div class="logo">
-            <a href="index.html#INDEX"><img id="main_logo" src="/image/common/linkedin_banner_image_1.png" alt="logo"></a>
+            <a href="../index.html#INDEX"><img id="main_logo" src="/image/common/linkedin_banner_image_1.png" alt="logo"></a>
         </div>
         <div class="topMenu">
             <ul class="dep01">
@@ -42,7 +44,7 @@
             <span id="close-sidenav"><img src="https://img.icons8.com/ios-filled/50/ffffff/close-window.png" alt="닫기"/></span>
             <ul id="menu_wrap">
                 <li>SEARCH</li>
-                <li><a href="pages/search.html#SEARCH">검색하기</a></li>
+                <li><a href="../pages/search.html#SEARCH">검색하기</a></li>
                 <li>MEDIA</li>
                 <li><a href="#">공지사항</a></li>
                 <li><a href="#">이벤트</a></li>                </ul>
@@ -51,27 +53,23 @@
     </header>
     
     <!-- 콘텐츠 -->
-    <div class="slide">
-        <div class="owl-carousel">
-            <div class="item"><h4>1</h4></div>
-            <div class="item"><h4>2</h4></div>
-            <div class="item"><h4>3</h4></div>
-            <div class="item"><h4>4</h4></div>
-            <div class="item"><h4>5</h4></div>
+    <div id="serach_bg">
+        <div id="main_ser">
+            <div id="serach_box">
+                <input id="query" type="text" placeholder="검색어를 입력하세요.">
+                <button id="search">검색</button>
+            </div>
         </div>
-    </div>
-    <div class="btn">
-        <button class="owl-prev">이전</button>
-        <button class="owl-next">다음</button>
     </div>
 
-    <div id="banner">
-        <div id="img_black"></div>
-        <img src="image/main/banner 1.jpg" alt="배너1">
-        <div class="main_phrase">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur blanditiis autem aperiam repudiandae laboriosam modi est veniam omnis quam illum. Reprehenderit blanditiis, dignissimos incidunt id mollitia nemo aliquam quam totam!
-        </div>
+    <!-- 카카오 API 나오는곳 -->
+    <div id="result_box">
+        <div id="result"></div>
     </div>
+    
+    
+
+
 
 
     <!-- 푸터 -->
@@ -91,10 +89,12 @@
         </div>
     </footer>
 
-    <script src="javascript/jquery-3.6.0.min.js"></script>
-    <script src="plugin/owl.carousel.min.js"></script>
-    <script src="javascript/main.js"></script>
-    <script src="javascript/common.js"></script>
+    <script src="../javascript/jquery-3.6.0.min.js"></script>
+    <script src="../plugin/owl.carousel.min.js"></script>
+    <script src="../javascript/main.js"></script>
+    <script src="../javascript/common.js"></script>
+    <script src="../javascript/searchbar.js"></script>
+
 
 </body>
 </html>
