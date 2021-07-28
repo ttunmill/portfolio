@@ -17,7 +17,7 @@ $(document).ready(function () {
                 $("#result").append("<h2><a href='"+ msg.documents[i].url +"'>" + msg.documents[i].title + "</a></h2>");
                 $("#result").append("<strong>저자:</strong> " + msg.documents[i].authors + "<br>");
                 $("#result").append("<strong>출판사:</strong> " + msg.documents[i].publisher + "<br>");
-                $("#result").append("<strong>요약:</strong> " + msg.documents[i].contents + "...<br>");
+                // $("#result").append("<strong>요약:</strong> " + msg.documents[i].contents + "...<br>");
                 $("#result").append("<img src='" + msg.documents[i].thumbnail + "'/><br>");
             }
         });
@@ -42,7 +42,7 @@ $(document).ready(function () {
                     $("#result").append("<h2><a href='"+ msg.documents[i].url +"'>" + msg.documents[i].title + "</a></h2>");
                     $("#result").append("<strong>저자:</strong> " + msg.documents[i].authors + "<br>");
                     $("#result").append("<strong>출판사:</strong> " + msg.documents[i].publisher + "<br>");
-                    $("#result").append("<strong>요약:</strong> " + msg.documents[i].contents + "...<br>");
+                    // $("#result").append("<strong>요약:</strong> " + msg.documents[i].contents + "...<br>");
                     $("#result").append("<img src='" + msg.documents[i].thumbnail + "'/><br>");
                 }
             });

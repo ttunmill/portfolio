@@ -11,6 +11,7 @@ body {
 }
 
 #result {
+    margin-top: 200px;
     display: inline-block;
     /* width: 22%; */
     /* border: 1px black solid; */
