@@ -2,11 +2,13 @@
 
 .slide {
     position: relative;
+    /* width: 1024px;
+    margin: 0 auto; */
 }
 
 .item {
     height: 300px;
-    background-color:lightcyan;
+    background-color:cornflowerblue;
     text-align: center;
     line-height: 400px;
     font-size: 60px;
@@ -27,7 +29,10 @@
 
 #banner {
     margin-top: 50px;
-    margin-bottom: 200px;
+    display: inline-block;
+
+    width: 1024px;
+    margin: 0 auto;
 }
 
 #img_black {
@@ -39,15 +44,16 @@
 }
 
 #banner img {
-    width: 100vw;
+    /* width: 100vw; */
     height: 500px;
 }
 
-/* .main_phrase {
+.main_phrase {
     position: relative;
+    display: block;
     transform: translate(-50%, -50%);
-    color: pink;
+    color: black;
     left: 50%;
     top: 50%;
     text-align: center;
-} */
+}

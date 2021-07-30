@@ -5,31 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="plugin/owl.carousel.min.css">
-    <link rel="stylesheet" href="plugin/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/notice.css">
+    <!-- <link rel="stylesheet" href="../css/search.css">
+    <link rel="stylesheet" href="../css/searchbar.css"> -->
+    <link rel="stylesheet" href="../plugin/owl.carousel.min.css">
+    <link rel="stylesheet" href="../plugin/owl.theme.default.min.css">
 </head>
 <body>
     <!-- 네비게이션 -->
-    <a name="INDEX"></a>
+    <a name="SEARCH"></a>
     <header>
         <div class="logo">
-            <a href="index.html#INDEX"><img id="main_logo" src="/image/common/linkedin_banner_image_1.png" alt="logo"></a>
+            <a href="../index.html#INDEX"><img id="main_logo" src="/image/common/linkedin_banner_image_1.png" alt="logo"></a>
         </div>
         <div class="topMenu">
             <ul class="dep01">
                 <li>
                     <span>SEARCH</span>
                     <ul class="dep02">
-                        <li id="dep02_01"><a href="pages/search.html#SEARCH">검색하기</a></li>
+                        <li id="dep02_01"><a href="../pages/search.html#SEARCH">검색하기</a></li>
                     </ul>
                 </li>
                 <li>
                     <span>MEDIA</span>
                     <ul class="dep02">
-                        <li><a href="#">공지사항</a></li>
-                        <li><a href="#">이벤트</a></li>
+                        <li><a href="../pages/notice.html#NOTICE">공지사항</a></li>
+                        <li><a href="../pages/event.html#EVENT">이벤트</a></li>
                     </ul>
                 </li>
             </ul>
@@ -42,18 +45,88 @@
             <span id="close-sidenav"><img src="https://img.icons8.com/ios-filled/50/ffffff/close-window.png" alt="닫기"/></span>
             <ul id="menu_wrap">
                 <li>SEARCH</li>
-                <li><a href="pages/search.html#SEARCH">검색하기</a></li>
+                <li><a href="../pages/search.html#SEARCH">검색하기</a></li>
                 <li>MEDIA</li>
-                <li><a href="#">공지사항</a></li>
-                <li><a href="#">이벤트</a></li>                </ul>
+                <li><a href="../pages/notice.html#NOTICE">공지사항</a></li>
+                <li><a href="../pages/event.html#EVENT">이벤트</a></li>                </ul>
             </ul>
         </div>
     </header>
     
     <!-- 콘텐츠 -->
+    <head>
+        <div class="board_list_wrap">
+            <table class="board_list">
+                <caption>게시판 목록</caption>
+                <thead>
+                    <tr>
+                        <th>번호</th>
+                        <th>제목</th>
+                        <th>글쓴이</th>
+                        <th>작성일</th>
+                        <th>조회</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td class="tit">
+                            <a href="#">Epic Books에 오신걸 환영합니다.</a>
+                        </td>
+                        <td>관리자</td>
+                        <td>2021-07-20</td>
+                        <td>111</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td class="tit">
+                            <a href="#">Epic Books 이용방법</a>
+                        </td>
+                        <td>관리자</td>
+                        <td>2021-07-22</td>
+                        <td>232</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="tit">
+                            <a href="#">포트폴리오</a>
+                        </td>
+                        <td>관리자</td>
+                        <td>2021-07-25</td>
+                        <td>323</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td class="tit">
+                            <a href="#">안녕하세요.</a>
+                        </td>
+                        <td>관리자</td>
+                        <td>2021-07-28</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td class="tit">
+                            <a href="#">Epic Books 공지사항</a>
+                        </td>
+                        <td>관리자</td>
+                        <td>2021-07-30</td>
+                        <td>251</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="paging">
+                <a href="#" class="bt">첫 페이지</a>
+                <a href="#" class="bt">이전 페이지</a>
+                <a href="#" class="num on">1</a>
+                <a href="#" class="num two">2</a>
+                <a href="#" class="num three">3</a>
+                <a href="#" class="bt">다음 페이지</a>
+                <a href="#" class="bt">마지막 페이지</a>
+            </div>
+        </div>
     
-
-
+    
     <!-- 푸터 -->
     <footer>
         <div>
@@ -71,10 +144,10 @@
         </div>
     </footer>
 
-    <script src="javascript/jquery-3.6.0.min.js"></script>
-    <script src="plugin/owl.carousel.min.js"></script>
-    <script src="javascript/main.js"></script>
-    <script src="javascript/common.js"></script>
+    <script src="../javascript/jquery-3.6.0.min.js"></script>
+    <script src="../javascript/main.js"></script>
+    <script src="../javascript/common.js"></script>
+
 
 </body>
 </html>

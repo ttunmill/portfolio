@@ -17,7 +17,7 @@
 
 #serach_box {
     height: 40px;
-    width: 400px;
+    width: 100%;
     border: 1px solid #1b5ac2;
     background: #ffffff;
 }
@@ -40,4 +40,62 @@
     outline: none;
     float: right;
     color: #ffffff;
+}
+
+@media screen and (max-width:767px){
+    #serach_box {
+        height: 40px;
+        width: 100%;
+        border: 1px solid #1b5ac2;
+        background: #ffffff;
+    }
+
+    #query {
+        font-size: 16px;
+        width: 150px;
+        padding: 10px;
+        border: 0;
+        outline: none;
+        float: left;
+    }
+    
+    #search {
+        cursor: pointer;
+        width: 50px;
+        height: 100%;
+        border: 0px;
+        background: #1b5ac2;
+        outline: none;
+        float: right;
+        color: #ffffff;
+    }
+}
+
+@media screen and (max-width:1023px) and (min-width:767px){
+    #serach_box {
+        height: 40px;
+        width: 100%;
+        border: 1px solid #1b5ac2;
+        background: #ffffff;
+    }
+
+    #query {
+        font-size: 16px;
+        width: 250px;
+        padding: 10px;
+        border: 0;
+        outline: none;
+        float: left;
+    }
+    
+    #search {
+        cursor: pointer;
+        width: 50px;
+        height: 100%;
+        border: 0px;
+        background: #1b5ac2;
+        outline: none;
+        float: right;
+        color: #ffffff;
+    }
 }
