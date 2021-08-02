@@ -21,10 +21,11 @@ a {
 
 .board_list_wrap {
     padding: 50px;
+    margin-bottom: 160px;
 }
 
 .board_list {
-    width: 960px;
+    width: 1024px;
     margin: 0 auto;
 
 
@@ -70,7 +71,7 @@ a {
 }
 
 .board_list_wrap .paging a.bt {
-    border: 1px solid #eee;
+    border: 1px solid white;
     background: #eee;
 }
 
@@ -82,5 +83,5 @@ a {
 
 .board_list_wrap .paging a.num.on {
     background: #1b5ac2;
-    color: #fff;
+    color: white;
 }

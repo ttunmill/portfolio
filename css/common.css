@@ -129,6 +129,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 120px;
     padding: 20px;
     text-align: center;
     background: #2C3A49;
@@ -167,13 +168,14 @@ footer {
     }
     
     #sidenav {
+
         display: block;
         height: 100%; width: 100%;
         top: 0; right: -100%;
-        background: #303942;
+        background: #2C3A49;
         position: fixed;
         transition: 0.3s;
-        opacity: 0.7;
+        opacity: 0.8;
         z-index: 2;
     }
     

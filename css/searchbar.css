@@ -45,15 +45,15 @@
 @media screen and (max-width:767px){
     #serach_box {
         height: 40px;
-        width: 100%;
+        width: 250px;
         border: 1px solid #1b5ac2;
         background: #ffffff;
     }
 
     #query {
         font-size: 16px;
-        width: 150px;
-        padding: 10px;
+        width: 170px;
+        /* padding-top: 10px; */
         border: 0;
         outline: none;
         float: left;
@@ -64,6 +64,7 @@
         width: 50px;
         height: 100%;
         border: 0px;
+        font-size: 16px;
         background: #1b5ac2;
         outline: none;
         float: right;

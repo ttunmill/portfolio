@@ -19,6 +19,7 @@ $(document).ready(function () {
                 $("#result").append("<strong>출판사:</strong> " + msg.documents[i].publisher + "<br>");
                 // $("#result").append("<strong>요약:</strong> " + msg.documents[i].contents + "...<br>");
                 $("#result").append("<img src='" + msg.documents[i].thumbnail + "'/><br>");
+
             }
         });
     })
