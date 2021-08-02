@@ -58,6 +58,7 @@ a {
     margin-top: 20px;
     text-align: center;
     font-size: 0;
+
 }
 .board_list_wrap .paging a {
     display: inline-block;
@@ -84,4 +85,9 @@ a {
 .board_list_wrap .paging a.num.on {
     background: #1b5ac2;
     color: white;
+}
+
+.paging {
+    width: 1024px;
+    margin: 0 auto;
 }
