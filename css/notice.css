@@ -5,6 +5,15 @@
     padding: 0;
 }
 
+#main_h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#main_h1 h1{
+    font-size: 30px;
+}
+
 
 table {
     border-collapse: collapse;
