@@ -22,11 +22,10 @@
 
 .slide {
     position: relative;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
 }
 
 .item {
-    height: 300px;
     /* background-color:darkslategray;
     text-align: center;
     line-height: 400px;
@@ -38,11 +37,23 @@
 #event_list {
     width: 1024px;
     margin: 0 auto;
+    overflow: hidden;
+    
 
+    margin-bottom: 210px;
 }
 
 #event_list img {
-    
+    float: left;
+}
+
+#event_list img:nth-of-type(1) {
+    padding-right: 40px;
+}
+
+#event_list img:nth-of-type(3) {
+    float: right;
+    padding-left: 20px;
 }
 
 
@@ -79,17 +90,15 @@
         width: 1024px;
         margin: 0 auto;
 
-        margin-bottom: 250px;
+        margin-bottom: 50px;
     }
 
     .item img {
-        width: 1024px;
-        height: 100%;
+        height: 400px;
     }
 
     #slide_background {
         background: gray;
-        width: 100%;
-        padding-top: 15px;
+        width: 100%;   
     }
 }

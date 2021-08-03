@@ -1,16 +1,17 @@
 $(document).ready(function() {
     $(".owl-carousel").owlCarousel({
-        items:1,
         autoplay:true,
         loop:true,
+        dots:false,
+        center:true,
+        margin:50,
         autoplayTimeout:3000,
         autoplayHoverPause:true,
-        center:true,
         responsiveClass:true, 
         responsive:{ 
-            0:{ items:1 }, 
-            768:{ items:2 }, 
-            1200:{ items:4 } 
+            0:{ items:2 }, 
+            768:{ items:4 }, 
+            1024:{ items:6 } 
         }
         
     });
