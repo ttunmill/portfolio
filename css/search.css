@@ -18,6 +18,10 @@ body {
     /* border: 1px black solid; */
 }
 
+.books {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
 
 
 

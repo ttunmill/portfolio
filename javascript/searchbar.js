@@ -14,12 +14,12 @@ $(document).ready(function () {
         .done(function (msg) {
             console.log(msg);
             for (var i = 0; i < 10; i++){
-                $("#result").append("<h2><a href='"+ msg.documents[i].url +"'>" + msg.documents[i].title + "</a></h2>");
-                $("#result").append("<strong>저자:</strong> " + msg.documents[i].authors + "<br>");
-                $("#result").append("<strong>출판사:</strong> " + msg.documents[i].publisher + "<br>");
-                // $("#result").append("<strong>요약:</strong> " + msg.documents[i].contents + "...<br>");
-                $("#result").append("<img src='" + msg.documents[i].thumbnail + "'/><br>");
-
+                $("#result").append("<div class='books'>"
+                + "<h2><a href='"+ msg.documents[i].url +"'>" + msg.documents[i].title + "</a></h2>"
+                + "<strong>저자:</strong> " + msg.documents[i].authors + "<br>"
+                + "<strong>출판사:</strong> " + msg.documents[i].publisher + "<br>"
+                + "<img src='" + msg.documents[i].thumbnail + "'/><br>" 
+                + "</div>");
             }
         });
     })
@@ -40,15 +40,23 @@ $(document).ready(function () {
             .done(function (msg) {
                 console.log(msg);
                 for (var i = 0; i < 10; i++){
-                    $("#result").append("<h2><a href='"+ msg.documents[i].url +"'>" + msg.documents[i].title + "</a></h2>");
-                    $("#result").append("<strong>저자:</strong> " + msg.documents[i].authors + "<br>");
-                    $("#result").append("<strong>출판사:</strong> " + msg.documents[i].publisher + "<br>");
-                    // $("#result").append("<strong>요약:</strong> " + msg.documents[i].contents + "...<br>");
-                    $("#result").append("<img src='" + msg.documents[i].thumbnail + "'/><br>");
+                    $("#result").append("<div class='books'>"
+                    + "<h2><a href='"+ msg.documents[i].url +"'>" + msg.documents[i].title + "</a></h2>"
+                    + "<strong>저자:</strong> " + msg.documents[i].authors + "<br>"
+                    + "<strong>출판사:</strong> " + msg.documents[i].publisher + "<br>"
+                    + "<img src='" + msg.documents[i].thumbnail + "'/><br>" 
+                    + "</div>");
+    
                 }
             });
 
+            
         }
-        
+    })
+
+    $("#query").keydown(function(keyNum) {
+        if(keyNum.keyCode == 13) {
+            $("#search").click()
+        }
     });
-})
+});
