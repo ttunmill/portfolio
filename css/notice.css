@@ -38,7 +38,7 @@ a {
     margin: 0 auto;
 
 
-    border-top: 2px solid #1b5ac2;
+    border-top: 2px solid rgb(44, 58, 73);
 }
 
 .board_list tr {
@@ -86,13 +86,13 @@ a {
 }
 
 .board_list_wrap .paging a.num {
-    border: 1px solid #1b5ac2;
+    border: 1px solid rgb(44, 58, 73);
     font-weight: 600;
-    color: #1b5ac2;
+    color: rgb(44, 58, 73);
 }
 
 .board_list_wrap .paging a.num.on {
-    background: #1b5ac2;
+    background: rgb(44, 58, 73);
     color: white;
 }
 

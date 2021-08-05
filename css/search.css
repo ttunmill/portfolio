@@ -26,11 +26,16 @@ body {
     text-align: center;
     margin: 20px;
     background-color: white;
+    border-radius: 50px;
 }
 
 .books a {
     color: black;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.books img {
+    margin-top: 10px;
 }
 
 

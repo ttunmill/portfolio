@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /* 네비게이션 */
 /* 초기화 */
 * {
@@ -9,6 +8,11 @@
 a { text-decoration: none !important; }
 img { border: 0; }
 ul { list-style: none; }
+
+body, h1, h2, h3, h4, h5, h6, p, span {
+    font-family: 'Sunflower', sans-serif;
+}
+
 
 /* 푸터 하단고정 */
 html {
