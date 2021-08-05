@@ -3,12 +3,12 @@
 #main_h1 {
     text-align: center;
     margin-top: 50px;
-    font-family: 'Sunflower', sans-serif;
 }
 
 #main_h1 h1{
-    font-size: 30px;
-    
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Sunflower', sans-serif;
 }
 
 
@@ -22,18 +22,7 @@
 
 .owl-dots{display:none;}
 
-.customPrevBtn, .customNextBtn{
-    background : none;
-    border: none;
-    color: #999999;
-    font-size: 20px;
-    font-weight: bold;
-}
-@media(max-width:768px){
-    .pbPrevBtn, .pbNextBtn{
-        display: none;
-    }
-}
+
 
 .item a img {
     transition: all 0.2s linear;
@@ -107,7 +96,9 @@
 
 #site_phrase {
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Sunflower', sans-serif;
 }
 
 #site_wrap {
@@ -144,8 +135,7 @@
     height: 250px;
     padding: 20px;
     background: white;
-    font-size: 20px;
-    
+    font-size: 28px;
 }
 
 #site_list a .site_img {
@@ -178,7 +168,6 @@
         margin: 10px;
         padding: 30px;
         background: white;
-        font-size: 20px;
     }
     
     #site_list a .site_img {
@@ -218,7 +207,6 @@
         margin: 10px;
         padding: 30px;
         background: white;
-        font-size: 20px;
     }
     
     #site_list a .site_img {
