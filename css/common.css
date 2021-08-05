@@ -141,7 +141,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 120px;
-    padding: 20px;
+    padding: 20px 0 20px 0;
     text-align: center;
     background: #2C3A49;
     color: white;
@@ -158,6 +158,7 @@ footer div,span,p {
 }
 
 @media screen and (max-width:767px) {
+    
     .dep01 {
         display: none;
     }
@@ -190,8 +191,8 @@ footer div,span,p {
         background: #2C3A49;
         position: fixed;
         transition: 0.3s;
-        opacity: 0.8;
-        z-index: 2;
+        opacity: 0.9;
+        z-index: 6000;
     }
     
     #sidenav ul {
@@ -210,22 +211,36 @@ footer div,span,p {
         padding: 10px;
         padding-top: 10px;
         text-align: center;
-        font-size: 1.5em;
-        opacity: 1;
+        font-size: 2em;
+        font-weight: 800;
     }
 
     #menu_wrap li a {
         color: white;
         padding: 20px;
         display: block;
-        font-size: 15px;
+        font-size: 16px;
+        font-weight: 400;
     }
 
     header li:hover a {
-        background: black   ;
+        background: black;
     }
 
 
+    /* 푸터 */
+
+    footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        padding: 20px 0 20px 0;
+        text-align: center;
+        background: #2C3A49;
+        color: white;
+    }
+    
 }
 
 

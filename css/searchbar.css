@@ -46,7 +46,7 @@
 @media screen and (max-width:767px){
     #serach_box {
         height: 40px;
-        width: 250px;
+        width: 240px;
         border: 1px solid #1b5ac2;
         background: #ffffff;
     }
