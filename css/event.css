@@ -44,12 +44,15 @@
     float: left;
 }
 
-
+#event_list #wrap a .event_img {
+    width: 300px;
+    height: 300px;
+}
 
 #event_list #wrap a:nth-of-type(1) img {
     padding-right: 35px;
-    width: 350px;
-    height: 350px;
+    /* width: 350px;
+    height: 350px; */
 }
 
 #event_list #wrap a:nth-of-type(3) img {
@@ -99,31 +102,31 @@
         margin: 0 auto;
     }
 
-    #event_list #wrap a:nth-of-type(1) img{
+    #event_list #wrap a:nth-of-type(1) .event_img{
         padding-left: 100%;
         padding-right: 0;
         transform: translateX(-50%);
     }
 
-    #event_list #wrap a:nth-of-type(2) img  {
+    #event_list #wrap a:nth-of-type(2) .event_img  {
         margin-top: 20px;
         padding-left: 100%;
         padding-right: 0;
         transform: translateX(-50%);
     }
     
-    #event_list #wrap a:nth-of-type(3) img  {
+    #event_list #wrap a:nth-of-type(3) #AD  {
         display: none;
     }
     
-    #event_list #wrap a:nth-of-type(4) img  {
+    #event_list #wrap a:nth-of-type(4) .event_img  {
         margin-top: 20px;
         padding-left: 100%;
         padding-right: 0;
         transform: translateX(-50%);
     }
     
-    #event_list #wrap a:nth-of-type(5) img  {
+    #event_list #wrap a:nth-of-type(5) .event_img  {
         margin-top: 20px;
         padding-left: 100%;
         padding-right: 0;
@@ -157,33 +160,33 @@
     }
 
 
-    #event_list #wrap a:nth-of-type(1) img{
+    #event_list #wrap a:nth-of-type(1) .event_img {
         padding-right: 0;
         width: 30%;
         height: 250px;
         
     }
 
-    #event_list #wrap a:nth-of-type(2) img  {
+    #event_list #wrap a:nth-of-type(2) .event_img   {
         padding-right: 0;
         padding-left: 20px;
         width: 30%;
         
     }
     
-    #event_list #wrap a:nth-of-type(3) img  {
+    #event_list #wrap a:nth-of-type(3) #AD {
         /* display: none; */
         width: 20%;
         margin-right: 30px;
     }
     
-    #event_list #wrap a:nth-of-type(4) img  {
+    #event_list #wrap a:nth-of-type(4) .event_img   {
         padding-right: 0;
         width: 30%;
         
     }
     
-    #event_list #wrap a:nth-of-type(5) img  {
+    #event_list #wrap a:nth-of-type(5) .event_img   {
         padding-right: 0;
         padding-left: 20px;
         width: 30%;
