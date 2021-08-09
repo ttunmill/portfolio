@@ -57,7 +57,7 @@
 
 @media screen and (max-width:767px) {
     #banner #img {
-        background-image: url("/image/main/banner2.jpg");
+        background-image: url("/images/main/banner2.jpg");
         background-size: cover;
         height: 400px;
         width: 100%;
@@ -71,7 +71,7 @@
 
 @media screen and (min-width:768px) and (max-width:1023px) {
     #banner #img {
-        background-image: url("/image/main/banner2.jpg");
+        background-image: url("/images/main/banner2.jpg");
         background-size: cover;
         height: 400px;
         width: 100%;
@@ -83,7 +83,7 @@
 
 @media screen and (min-width:1024px) {
     #banner #img {
-        background-image: url("/image/main/banner4.jpg");
+        background-image: url("/images/main/banner4.jpg");
         background-size: cover;
         height: 400px;
     }
