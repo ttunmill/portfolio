@@ -63,12 +63,17 @@ $(document).ready(function () {
     $("#search").on("click",function() {
         if($("#query").val()==0 || $("#query").val()=="undifined"){
             $(".p1").show();
+
+            $("#query").effect(callback);
         }
+    });
 
     $("#search").on("click",function() {
         if($("#query").val()!=0 || $("#query").val()!="undifined") {
             $(".p1").hide();
         }
     });
+    function callback() {
+
+    }
     });
-});
