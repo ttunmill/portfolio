@@ -38,6 +38,14 @@ body {
     margin-top: 10px;
 }
 
+.p1 {
+    font-size: 13px;
+    text-align: center;
+    color: red;
+    padding-top: 10px;
+    display: none;
+}
+
 
 @media screen and (max-width:767px) {
     #result_box {

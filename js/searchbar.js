@@ -59,4 +59,16 @@ $(document).ready(function () {
             $("#search").click()
         }
     });
+
+    $("#search").on("click",function() {
+        if($("#query").val()==0 || $("#query").val()=="undifined"){
+            $(".p1").show();
+        }
+
+    $("#search").on("click",function() {
+        if($("#query").val()!=0 || $("#query").val()!="undifined") {
+            $(".p1").hide();
+        }
+    });
+    });
 });
